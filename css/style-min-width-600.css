@@ -1,0 +1,53 @@
+@media screen and (min-width: 600px) {
+    .top-header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .top-header img {
+        width: 50%;
+        text-align: center;
+    }
+
+    .left {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .left img {
+        width: 60%;
+    }
+
+    .right {
+        width: 75%;
+        padding: 1em;
+    }
+
+    .post h3 {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .post p {
+        width: 100%;
+        font-size: .8em;
+    }
+
+    .post h4 {
+        width: 100%;
+        font-size: .9em;
+    }
+
+    .targs {
+        display: flex;
+        justify-content: center;
+    }
+
+    .targs p {
+        display: inline-block;
+        width: 30%;
+        margin-bottom: 2%;
+    }
+}

@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #22212C;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* header  */
+
+.top-header {
+    background-color: #302F3D;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    margin: 1em 0;
+    padding: 2em;
+}
+
+.top-header img {
+    width: 100%;
+    border: 5px solid #2ea450;
+    border-radius: 50%;
+}
+
+.top-header h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #64607a;
+}
+
+.top-header p {
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+#description {
+    margin-top: 5%;
+    color: white;
+}
+
+/* fim header */
+
+/* section informations */
+
+.informations {
+    background-color: #302f3d;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    padding: 2em;
+    margin-bottom: 1em;
+}
+
+.informations li {
+    list-style: none;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.informations li img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.informations li p {
+    text-align: center;
+    margin: .5em 0;
+    color: white;
+    font-size: 1.2em;
+}
+
+/* fim section informations */
+
+/* skills */
+
+.skills {
+    background-color: #302f3d;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    padding: 2em;
+    margin-bottom: 1em;
+}
+
+.skills h2 {
+    font-size: 2.5em;
+    color: #837e9f;
+    margin-bottom: 1.3em;
+}
+
+.skills li {
+    display: inline-block;
+    margin-bottom: .8em;
+    background-color: #cb92b1;
+    padding: 1em;
+    border-radius: 2em;
+    color: white;
+}
+
+/* fim skills */
+
+/* experience */
+
+.experiencias {
+    background-color: #302f3d;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    padding: 2em;
+    margin-bottom: 1em;
+}
+
+.experiencias h2 {
+    font-size: 2em;
+    color: #837e9f;
+    margin-bottom: 1.3em;
+}
+
+.experiencias li {
+    color: white;
+    margin-left: 1em;
+}
+
+.experiencias li span {
+    color: #837e9f;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* fim experiece */
+
+/* education */
+
+.education {
+    background-color: #302f3d;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    padding: 2em;
+    margin-bottom: 1em;
+}
+
+.education h2 {
+    font-size: 2em;
+    color: #837e9f;
+    margin-bottom: 1.3em;
+}
+
+.education li {
+    color: white;
+    margin-left: 1em;
+}
+
+.education li span {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* fim education */
+
+
+/* my projects */
+
+.my-projects {
+    background-color: #22212C;
+    margin: 1em 0;
+}
+
+.view-all-project {
+    background-color: #302f3d;
+    padding: 2em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view-all-project h2 {
+    font-size: 1.5em;
+    color: #837e9f;
+}
+
+.view-all-project a {
+    color: #837e9f;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.project {
+    background-color: #302f3d;
+    padding: 2em;
+    margin: 1em 0;
+}
+
+.project h3 {
+    color: #837e9f;
+    margin-bottom: 1em;
+    display: flex;
+}
+
+.project h3 img {
+    margin-right: .7em;
+}
+
+.project h3 strong {
+    font-size: 1.3em;
+}
+
+.project p {
+    color: #837e9f;
+    margin-bottom: 1em;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.icons span {
+    color: #837e9f;
+    padding: .7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons span img {
+    margin-right: .6em;
+}
+
+.icons span:last-child::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-color: yellow;
+    border: 4px solid #837e9f;
+    border-radius: 50%;
+    margin-right: .7em;
+}
+
+/* fim my projects */
+
+
+/* posts */
+
+.recent-Posts {
+    background-color: #22212C;
+    margin: 1em 0;
+}
+
+.title-posts {
+    background-color: #302f3d;
+    padding: 2em;
+    margin-bottom: 1em;
+}
+
+.title-posts h2 {
+    font-size: 1.5em;
+    color: #837e9f;
+}
+
+.post {
+    background-color: #302f3d;
+    padding: 2em;
+    margin: 1em 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post img {
+    width: 6.25em;
+    height: 6.25em;
+    display: inline-block;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.post h3 {
+    width: 100%;
+    margin: 1em 0;
+    color: #837e9f;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.post p {
+    color: #837e9f;
+}
+
+.post h4 {
+    color: #837e9f;
+    margin: 1em 0;
+}
+
+.targs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.targs p:nth-child(2n) {
+    margin: 0 2%;
+}
+
+/* fim posts */
+
+/* footer */
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.1em;
+}
+
+footer h3 {
+    font-size: 1.5em;
+}
+
+/* fim footer */
