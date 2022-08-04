@@ -5,6 +5,10 @@
         justify-content: center;
     }
 
+    .top-header h1 {
+        width: 100%;
+    }
+
     .top-header img {
         width: 50%;
         text-align: center;

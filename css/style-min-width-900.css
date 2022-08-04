@@ -93,8 +93,9 @@
     .recent-Posts {
         width: 65%;
         position: absolute;
-        top: 90%;
+        top: 75vh;
         right: 2%;
+        margin-top: 10%;
     }
 
     .title-posts {

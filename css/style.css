@@ -282,7 +282,7 @@ a {
     width: 6.25em;
     height: 6.25em;
     display: inline-block;
-    border-radius: 50%;
+    border-radius: 6.25em;
     margin: auto;
 }
 
